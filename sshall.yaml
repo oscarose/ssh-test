@@ -7,3 +7,6 @@
   tasks:
     - name: test ssh connection
       command: ls -altr
+      
+    - name: Run shell script
+      script: $WORKSPACE/sshall.sh {{ arg1 }} {{ arg2 }}
