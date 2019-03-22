@@ -9,4 +9,4 @@
       command: ls -altr
       
     - name: Run shell script
-      script: ./../sshall.sh {{ arg1 }} {{ arg2 }}
+      script: ./myapp/sshall.sh {{ arg1 }} {{ arg2 }}
